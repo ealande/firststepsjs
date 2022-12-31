@@ -6,11 +6,23 @@ let age = 90.5
 let state = "Parana"
 let city = "Curitiba"
 let logged = true //or false, used to show if a user is logged or not. Its a boolean variable.
-let lists = ["egg","pasta", "tomatoes"] //array
+let lists = ["egg","pasta", "tomatoes"] //array and objects are classified as an object variable
+let carBrand = "Ferrari"
+let price = 19.99
+let foreingcity = "Tokyo"
 let fullName = {names: "Erick Lima", age: 30}
-
+/*console.log is used to 
+insert information in the console*/
 console.log (names)
 console.log (age)
 console.log (city)
 console.log (state)
+console.log (carBrand)
+console.log (price)
+console.log (foreingcity)
 console.log (typeof names)
+console.log (typeof age)
+console.log (typeof logged)
+console.log (typeof lists)
+console.log (typeof fullName) 
+
