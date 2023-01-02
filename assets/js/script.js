@@ -2,7 +2,8 @@ alert ("Hello, World");
 console.log("Hello, world 2.0");
 //let var const
 let names ="test";
-let age = 90;
+let age = 20;
+let age1 = "90";
 let state = "Parana";
 let city = "Curitiba";
 let logged = true; //or false, used to show if a user is logged or not. Its a boolean variable.
@@ -46,7 +47,30 @@ console.log (fullage);
 < > == >= <= != 
 */
 if (age > 18) {
-    console.log ("you are an adult!")
+    console.log ("you are an adult!");
 } else {
-    console.log ("you aren't a adult.")
+    console.log ("you aren't a adult.");
+}
+
+/*difference between == and ===
+(the === is more restricted in the verification)*/
+if (age == 20) {
+    console.log ("You are 20 years old");
+}
+
+if (age1 === 90) {
+    console.log ("You are 90 years old");
+}
+//error caused because the age1 is a string
+if (age1 == 90) {
+    age1 = age1 + 15;
+    console.log ("addition successfully completed!");
+    console.log (age1);
+}
+// the === prevents the error occurrence
+// !== 
+if (age1 === 90) {
+    age1 = age1 + 15;
+    console.log ("addition successfully completed!");
+    console.log (age1);
 }
