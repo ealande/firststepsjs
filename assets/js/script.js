@@ -2,7 +2,7 @@ alert ("Hello, World");
 console.log("Hello, world 2.0");
 //let var const
 let names ="test";
-let age = 90.5;
+let age = 90;
 let state = "Parana";
 let city = "Curitiba";
 let logged = true; //or false, used to show if a user is logged or not. Its a boolean variable.
@@ -42,3 +42,11 @@ console.log (y);
 console.log ("Brand and model of the car:" + whatCar);
 console.log ("Brand and model of the car:" + newCar);
 console.log (fullage);
+/*
+< > == >= <= != 
+*/
+if (age > 18) {
+    console.log ("you are an adult!")
+} else {
+    console.log ("you aren't a adult.")
+}
