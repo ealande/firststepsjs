@@ -74,3 +74,11 @@ if (age1 === 90) {
     console.log ("addition successfully completed!");
     console.log (age1);
 }
+
+//multiple conditions
+
+if (age >=  18){
+    if (age < 60){
+    console.log ("you're an adult!");
+}
+}
