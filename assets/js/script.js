@@ -76,9 +76,26 @@ if (age1 === 90) {
 }
 
 //multiple conditions
-
+/*
 if (age >=  18){
     if (age < 60){
     console.log ("you're an adult!");
 }
+}*/
+
+if (age >= 18 && age < 60) {
+    console.log("You are an adult!");
 }
+
+if (age >= 18 || age <60) {
+    console.log("You are an adult!");
+}
+//conditional statement if else
+if (age < 20 && age > 12) {
+    console.log("You're a teenager!");}
+else if (age <= 12){
+    console.log("You're a kid!");}
+else if (age >= 60){
+        console.log("You're elderly.")}
+else if(age >= 20){
+    console.log("You are an adult!!!");}
