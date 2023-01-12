@@ -99,3 +99,42 @@ else if (age >= 60){
         console.log("You're elderly.")}
 else if(age >= 20){
     console.log("You are an adult!!!");}
+
+//"if" is a boolean verification(true or false)
+
+let booleanAge = 14;
+let adultAge = booleanAge >=18;
+
+if (adultAge){
+    console.log ("It's an adult!")}
+else{
+    console.log ("It's not an adult!");
+}
+
+console.log (booleanAge > 18);
+
+//activities
+//1
+let z = 10;
+let p = 5;
+console.log (z > p);
+
+//2
+let q = "10";
+let w = 10;
+console.log(w != q);
+
+//3
+
+let t = 10;
+let u = 5;
+console.log (t > u);
+
+//4
+let meatPrice = 46.3;
+if (meatPrice < 45){
+    console.log("The kg of the meat is cheap, buy it!")
+}
+else {
+    console.log ("Don't buy it, the price is too high!")
+}
