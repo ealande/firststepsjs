@@ -138,3 +138,15 @@ if (meatPrice < 45){
 else {
     console.log ("Don't buy it, the price is too high!")
 }
+//ternary conditional
+
+let isMember = true;
+
+let shipping = isMember ? 2 : 10;
+
+console.log ("Shipping price is:" + shipping);
+console.log (isMember ? 'You are a member!' : 'You are not a member!')
+
+let isAdult = age >= 18 ? 'Is an adult!' : 'Isnt a adult!';
+
+console.log (isAdult);
