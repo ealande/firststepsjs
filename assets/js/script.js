@@ -11,7 +11,7 @@ let lists = ["egg","pasta", "tomatoes"]; //array and objects are classified as a
 let carBrand = "Ferrari";
 let price = 19.99;
 let foreingcity = "Tokyo";
-let fullName = {names: "Erick Lima", age: 30};
+//let fullName = {names: "Erick Lima", age: 30};
 let x = 2;
 let y = "example";
 let carModel = "LaFerrari";
@@ -173,3 +173,25 @@ switch(profession) {
 }
 
 //what is a function?
+ 
+function gravity() {
+    
+    console.log('The gravity of the planet is:');
+    console.log('9.8');
+}
+
+gravity();
+
+function sum(n1, n2){
+    let result = n1 + n2;
+    console.log('Result:' + result);
+
+}
+
+sum(10, 15); //parameter
+
+function fullName(firstName, lastName){
+    console.log(`${firstName} ${lastName}`);
+}
+
+fullName('Erick','Lima');
