@@ -147,6 +147,29 @@ let shipping = isMember ? 2 : 10;
 console.log ("Shipping price is:" + shipping);
 console.log (isMember ? 'You are a member!' : 'You are not a member!')
 
-let isAdult = age >= 18 ? 'Is an adult!' : 'Isnt a adult!';
+let isAdult = age >= 18 ? 'Is an adult!' : 'Isnt a adult!'
 
 console.log (isAdult);
+
+//switch
+
+let profession = "fscal"
+
+switch(profession) {
+    case 'fiscal':
+        console.log ('Your color is green.')
+        break;
+
+    case 'police man':
+        console.log ('Your color is blue.')
+        break;
+
+    case 'firefighter':
+        console.log ('Your color is red.')
+        break;
+
+    default:
+        console.log ('Your color is black.')
+}
+
+//what is a function?
