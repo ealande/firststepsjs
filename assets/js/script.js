@@ -191,7 +191,12 @@ function sum(n1, n2){
 sum(10, 15); //parameter
 
 function fullName(firstName, lastName){
-    console.log(`${firstName} ${lastName}`);
+   //console.log(`${firstName} ${lastName}`);
+    return `${firstName} ${lastName}`;
 }
 
-fullName('Erick','Lima');
+//fullName('Erick','Lima');
+let complete = fullName("Erick", "Lima");
+console.log ("The full name is:" + complete);
+
+//input -> processing -> output
