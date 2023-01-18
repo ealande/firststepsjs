@@ -200,3 +200,27 @@ let complete = fullName("Erick", "Lima");
 console.log ("The full name is:" + complete);
 
 //input -> processing -> output
+
+//conditional return function
+function ofLegalAge(age2){
+    if (age2 < 18){
+        console.log ("You are a minor, so you didn't reach the legal age.")
+        return false;
+    }
+    else {
+        console.log ("You are of legal age.")
+        return true;
+    }
+}
+
+ofLegalAge (18);
+
+//exercises
+function calcPct (xx,yy){
+return (yy / xx) * 100;}
+
+let xx = 40;
+let yy = 10;
+let pct = calcPct(xx, yy);
+console.log(`${pct}% of ${xx} is ${yy}`);
+
