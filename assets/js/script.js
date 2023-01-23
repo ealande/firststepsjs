@@ -224,3 +224,11 @@ let yy = 10;
 let pct = calcPct(xx, yy);
 console.log(`${pct}% of ${xx} is ${yy}`);
 
+//2
+function realtyPrice (meters,rooms){
+return (meters * rooms);
+}
+let meters = 123;
+let rooms = 4;
+let prices = realtyPrice(meters, rooms);
+console.log(`The house price is ${prices}`);
