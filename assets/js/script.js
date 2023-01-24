@@ -250,3 +250,24 @@ let meters = 123;
 let rooms = 3;
 let prices = realtyPrice(meters,rooms);
 console.log(`The house price is R$` + prices)
+
+//3
+
+
+function validate (user, password){
+if (user === 'pedro' && password ==='123')
+{
+    return true;
+}else {
+    return false;
+
+}
+}
+let user = 'bonio';
+let password = '1w23';
+let validation = validate(user, password);
+if (validation){
+    console.log('You can have access to the system.')
+}else {
+    console.log ('Access denied!');
+}
