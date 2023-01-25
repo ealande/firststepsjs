@@ -271,3 +271,23 @@ if (validation){
 }else {
     console.log ('Access denied!');
 }
+
+//arrow function
+
+/*function sum (x,y) {
+    return (x+y);
+}
+console.log (sum(10,5));
+*/
+
+const sum2 = (x,y) =>{
+    return x + y;
+}
+console.log (sum2(102,5));
+
+const sum3 = (x,y) => x+y;
+console.log (sum3 (2,55));
+
+const lastName2 = (lastNameVar) => 'Erick ' + lastNameVar;
+
+console.log (lastName2('Lima'));
