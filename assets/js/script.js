@@ -291,3 +291,37 @@ console.log (sum3 (2,55));
 const lastName2 = (lastNameVar) => 'Erick ' + lastNameVar;
 
 console.log (lastName2('Lima'));
+
+//function inside a function
+
+/*function square (x){
+    return x*x;
+}
+
+function addSquares (a,b) {
+    let sqrA = square(a);
+    let sqrB = square (b);
+    return square(a)+square (b);
+}
+
+*/
+
+
+/*function addSquares (a,b) {
+    function square (x){
+        return x*x;
+    }
+    
+    let sqrA = square(a);
+    let sqrB = square (b);
+    return square(a)+square (b);
+}*/
+
+function addSquares (a,b) {
+    const square = (x) => x * x;
+    
+    let sqrA = square(a);
+    let sqrB = square (b);
+    return square(a)+square (b);
+}
+console.log(addSquares(1,2))
