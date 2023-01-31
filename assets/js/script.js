@@ -325,3 +325,9 @@ function addSquares (a,b) {
     return square(a)+square (b);
 }
 console.log(addSquares(1,2))
+
+// arrays
+
+let color = ["yellow", "blue", "red"];
+
+console.log (color[0])
