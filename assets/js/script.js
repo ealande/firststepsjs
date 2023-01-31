@@ -329,5 +329,6 @@ console.log(addSquares(1,2))
 // arrays
 
 let color = ["yellow", "blue", "red"];
-
-console.log (color[0])
+let lists2 =["bla bla", ["xx", "y"]];
+console.log (lists2[1][1]);
+console.log (color[0]);
