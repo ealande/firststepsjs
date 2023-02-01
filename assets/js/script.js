@@ -332,3 +332,17 @@ let color = ["yellow", "blue", "red"];
 let lists2 =["bla bla", ["xx", "y"]];
 console.log (lists2[1][1]);
 console.log (color[0]);
+
+//
+let cakeIngredients = [
+    'water',
+    'eggs',
+    'sugar',
+    'flour'
+]
+
+cakeIngredients.push(`purpleOnion`)
+cakeIngredients.pop()
+cakeIngredients.shift()
+console.log (cakeIngredients)
+console.log (`The total of ingredients is: ${cakeIngredients.length}`)
