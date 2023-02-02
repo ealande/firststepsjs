@@ -341,8 +341,19 @@ let cakeIngredients = [
     'flour'
 ]
 
-cakeIngredients.push(`purpleOnion`)
-cakeIngredients.pop()
-cakeIngredients.shift()
+cakeIngredients.push(`purpleOnion`) //insert in the last space of the array
+cakeIngredients.pop() //remove the last one
+cakeIngredients.shift() //remove the first one
 console.log (cakeIngredients)
 console.log (`The total of ingredients is: ${cakeIngredients.length}`)
+
+let brandsCars = ["BMW", "Ferrari", "Mercedes"];
+console.log('1.' + brandsCars[1]);
+console.log ('2.List with Audi:');
+brandsCars[1] = 'Audi';
+console.log (brandsCars);
+console.log ('3.List with Volvo:');
+brandsCars.push('Volvo');
+console.log(brandsCars);
+console.log('4.How many items are inside the array:');
+console.log(brandsCars.length);
