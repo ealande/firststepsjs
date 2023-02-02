@@ -348,7 +348,8 @@ console.log (cakeIngredients)
 console.log (`The total of ingredients is: ${cakeIngredients.length}`)
 
 let brandsCars = ["BMW", "Ferrari", "Mercedes"];
-console.log('1.' + brandsCars[1]);
+let xyz = 1;
+console.log('1.' + brandsCars[xyz]);
 console.log ('2.List with Audi:');
 brandsCars[1] = 'Audi';
 console.log (brandsCars);
@@ -357,3 +358,19 @@ brandsCars.push('Volvo');
 console.log(brandsCars);
 console.log('4.How many items are inside the array:');
 console.log(brandsCars.length);
+//objects
+let person = {
+ firstName:"Erick",
+ lastName: "Lima",
+ age: 31,
+ characteristics:{
+    strength: 10,
+    magic: 20,
+    stamina: 20
+    
+ }
+}
+
+console.log(person.age);
+console.log(`${person.firstName} is ${person.age} years old, and his characteristics are strength:${person.characteristics.strength}, magic:${person.characteristics.magic}
+and stamina: ${person.characteristics.stamina}`)
