@@ -369,7 +369,11 @@ let person = {
     magic: 20,
     stamina: 20
     
- }
+ },
+ car:[
+        {brand: `chevrolet`, color: `black`},
+        {brand:`ferrari`, colos: `yellow`}
+ ]
 }
 
 console.log(person.age);
@@ -381,3 +385,4 @@ console.log (`the strength of the person is ${person.characteristics.strength}`)
 person.eyes.push([`black`, `blue`], `yellow`);
 console.log (person.eyes[0]);
 console.log (person.eyes[1]);
+console.log (person.car[0].brand)
