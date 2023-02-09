@@ -363,6 +363,7 @@ let person = {
  firstName:"Erick",
  lastName: "Lima",
  age: 31,
+ eyes:[],
  characteristics:{
     strength: 10,
     magic: 20,
@@ -374,3 +375,9 @@ let person = {
 console.log(person.age);
 console.log(`${person.firstName} is ${person.age} years old, and his characteristics are strength:${person.characteristics.strength}, magic:${person.characteristics.magic}
 and stamina: ${person.characteristics.stamina}`)
+
+person.characteristics.strength += 5;
+console.log (`the strength of the person is ${person.characteristics.strength}`);
+person.eyes.push([`black`, `blue`], `yellow`);
+console.log (person.eyes[0]);
+console.log (person.eyes[1]);
