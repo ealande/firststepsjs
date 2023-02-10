@@ -373,8 +373,15 @@ let person = {
  car:[
         {brand: `chevrolet`, color: `black`},
         {brand:`ferrari`, colos: `yellow`}
- ]
+ ],
+ fullName: function() {
+    return this.firstName + ' ' + this.lastName
+ },
+ fullName2: function() {
+    return `${this.firstName} ${this.lastName}`
+ }
 }
+
 
 console.log(person.age);
 console.log(`${person.firstName} is ${person.age} years old, and his characteristics are strength:${person.characteristics.strength}, magic:${person.characteristics.magic}
@@ -385,4 +392,6 @@ console.log (`the strength of the person is ${person.characteristics.strength}`)
 person.eyes.push([`black`, `blue`], `yellow`);
 console.log (person.eyes[0]);
 console.log (person.eyes[1]);
-console.log (person.car[0].brand)
+console.log (person.car[0].brand);
+console.log (person.fullName());
+console.log (person.fullName2())
